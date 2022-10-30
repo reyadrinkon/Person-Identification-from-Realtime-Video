@@ -6,7 +6,6 @@ count=0
 nameID=str(input("Enter your name: "))
 
 path='images/'+nameID
-
 isExist=os.path.exists(path)
 if isExist:
     print("Name Already exists")
